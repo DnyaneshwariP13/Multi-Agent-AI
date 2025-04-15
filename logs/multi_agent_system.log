@@ -1,0 +1,92 @@
+2025-04-14T22:27:00.410504-0500 ERROR SummarizeAgent Error: 'SummarizeTool' object has no attribute 'call_openai'
+2025-04-14T22:31:03.759635-0500 ERROR SummarizeAgent Error: 'SummarizeTool' object has no attribute 'call_openai'
+2025-04-14T22:43:51.904071-0500 ERROR SummarizeAgent Error: 'SummarizeTool' object has no attribute 'call_openai'
+2025-04-14T22:43:53.652148-0500 ERROR SummarizeAgent Error: 'SummarizeTool' object has no attribute 'call_openai'
+2025-04-14T22:49:40.242128-0500 ERROR WriteArticleAgent Error: 'WriteArticleTool' object has no attribute 'call_openai'
+2025-04-14T22:51:09.141389-0500 INFO [WriteArticleTool] Sending messages to OpenAI:
+2025-04-14T22:51:09.141389-0500 DEBUG   system: You are an expert academic writer.
+2025-04-14T22:51:09.142388-0500 DEBUG   user: Write research article on the following topic:
+ Topic:Write about Agentic AI and its use cases
+
+Outline:
+Introduction
+Related Work / Literature Review
+Methodology
+Experiments and Results
+Discussion
+Conclusion and Future Work
+
+Article:
+
+2025-04-14T22:51:10.639697-0500 ERROR [WriteArticleTool] Error during OpenAI call: Error code: 404 - {'error': {'message': 'The model `gpt-4` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}. Retry 1/2
+2025-04-14T22:51:10.639697-0500 INFO [WriteArticleTool] Sending messages to OpenAI:
+2025-04-14T22:51:10.639697-0500 DEBUG   system: You are an expert academic writer.
+2025-04-14T22:51:10.639697-0500 DEBUG   user: Write research article on the following topic:
+ Topic:Write about Agentic AI and its use cases
+
+Outline:
+Introduction
+Related Work / Literature Review
+Methodology
+Experiments and Results
+Discussion
+Conclusion and Future Work
+
+Article:
+
+2025-04-14T22:51:10.717407-0500 ERROR [WriteArticleTool] Error during OpenAI call: Error code: 404 - {'error': {'message': 'The model `gpt-4` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}. Retry 2/2
+2025-04-14T22:51:10.719405-0500 ERROR WriteArticleAgent Error: [WriteArticleTool] Failed to get response from OpenAI after 2 retries.
+2025-04-14T23:01:03.978908-0500 INFO [WriteArticleTool] Sending messages to OpenAI:
+2025-04-14T23:01:03.979435-0500 DEBUG   system: You are an expert academic writer.
+2025-04-14T23:01:03.979435-0500 DEBUG   user: Write research article on the following topic:
+ Topic:Write about Agentic AI and its use cases
+
+Outline:
+Introduction
+Related Work / Literature Review
+Methodology
+Experiments and Results
+Discussion
+Conclusion and Future Work
+
+Article:
+
+2025-04-14T23:01:06.116968-0500 ERROR [WriteArticleTool] Error during OpenAI call: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retry 1/2
+2025-04-14T23:01:06.116968-0500 INFO [WriteArticleTool] Sending messages to OpenAI:
+2025-04-14T23:01:06.117970-0500 DEBUG   system: You are an expert academic writer.
+2025-04-14T23:01:06.117970-0500 DEBUG   user: Write research article on the following topic:
+ Topic:Write about Agentic AI and its use cases
+
+Outline:
+Introduction
+Related Work / Literature Review
+Methodology
+Experiments and Results
+Discussion
+Conclusion and Future Work
+
+Article:
+
+2025-04-14T23:01:07.627747-0500 ERROR [WriteArticleTool] Error during OpenAI call: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retry 2/2
+2025-04-14T23:01:07.628747-0500 ERROR WriteArticleAgent Error: [WriteArticleTool] Failed to get response from OpenAI after 2 retries.
+2025-04-14T23:03:37.620520-0500 INFO [SummarizeTool] Sending messages to OpenAI:
+2025-04-14T23:03:37.621519-0500 DEBUG   system: You are an AI assistant which summarizes texts.
+2025-04-14T23:03:37.621519-0500 DEBUG   user: Please provide a concise summary of the following text:
+
+Menstruation is driven by hormones. Hormones are chemical messengers in your body. Your pituitary gland (in your brain) and your ovaries (part of your reproductive system) make and release certain hormones at certain times during your menstrual cycle.
+
+These hormones cause the lining of your uterus to thicken. This happens so that if a pregnancy would occur, an egg can implant into your uterine lining. Hormones also cause your ovaries to release an egg (ovulation). The egg moves down your fallopian tubes, where it waits for sperm. If a sperm doesn’t fertilize that egg, pregnancy doesn’t occur. The lining of your uterus breaks down and sheds. This is your period.My periods are 3 days.
+
+Summary:
+2025-04-14T23:03:55.590730-0500 ERROR [SummarizeTool] Error during OpenAI call: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retry 1/2
+2025-04-14T23:03:55.590730-0500 INFO [SummarizeTool] Sending messages to OpenAI:
+2025-04-14T23:03:55.590730-0500 DEBUG   system: You are an AI assistant which summarizes texts.
+2025-04-14T23:03:55.591730-0500 DEBUG   user: Please provide a concise summary of the following text:
+
+Menstruation is driven by hormones. Hormones are chemical messengers in your body. Your pituitary gland (in your brain) and your ovaries (part of your reproductive system) make and release certain hormones at certain times during your menstrual cycle.
+
+These hormones cause the lining of your uterus to thicken. This happens so that if a pregnancy would occur, an egg can implant into your uterine lining. Hormones also cause your ovaries to release an egg (ovulation). The egg moves down your fallopian tubes, where it waits for sperm. If a sperm doesn’t fertilize that egg, pregnancy doesn’t occur. The lining of your uterus breaks down and sheds. This is your period.My periods are 3 days.
+
+Summary:
+2025-04-14T23:03:57.093306-0500 ERROR [SummarizeTool] Error during OpenAI call: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retry 2/2
+2025-04-14T23:03:57.094304-0500 ERROR SummarizeAgent Error: [SummarizeTool] Failed to get response from OpenAI after 2 retries.
